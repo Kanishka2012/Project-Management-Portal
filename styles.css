@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 80%;
+    background-color: antiquewhite;
+    margin:auto;
+    padding:20px;
+}
+
+.heading{
+    text-align: center;
+    margin:auto;
+    padding:20px;
+    font-size:50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.button{
+    /* display: flex;
+    flex-direction: column; */
+    text-align: center;
+    padding: 20px;
+}
+.center {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #dbe4ed; 
+  
+  }
+
+.section{
+    display: flex;
+    padding: 0px;
+    font-size: 20px;
+}
+
+.section p{
+    color: brown;
+    font-weight: bold;
+}
+.text{
+  
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.font_size{
+    font-size: 20px;
+}
+.text p{
+    text-align: center;
+}
+
+.status{
+    display: flex;
+}
+.status label{
+    margin: 8px 0px 10px 0px;
+    padding: 10px 0px;
+}
+.container h1{
+    text-align: center;
+}
+input, textarea, select{
+    display: block;;
+    width: 80%;
+    margin: 11px 0px;
+    padding: 7px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 6px;
+    outline: none;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn{
+    color:white;
+    background: orange;
+    padding: 8px 12px;
+    font-size: 20px;
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr{
+    border-top: 5px solid white;
+}
+
+.home{
+    font-size: 18px;
+}
